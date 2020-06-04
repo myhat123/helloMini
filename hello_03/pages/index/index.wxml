@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view>hello {{ name }}</view>
+<view>
+  <icon type="success"></icon>
+  <icon type="info"></icon>
+  <icon type="success"></icon>
+</view>
+<view><button>This is a Button</button></view>
+<view><progress percent="50"/></view>
+
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}"></image>
+    <text class="userinfo-nickname">{{ userInfo.nickName }}</text>
+  </view>
+</view>
