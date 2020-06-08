@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>知乎日报 {{ date }}</view>
+
+<view wx:for="{{stories}}" wx:key="key"> {{item.title}} </view>

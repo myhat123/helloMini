@@ -1,6 +1,7 @@
-https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
-
 体验 hello world
+================
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/getstart.html
 
 小程序代码构成
 ​在上一章中，我们通过开发者工具快速创建了一个 QuickStart 项目。你可以留意到这个项目里边生成了不同类型的文件:
