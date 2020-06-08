@@ -1,0 +1,21 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__hd">
+		<view class="page__title">无聊时光</view>
+	</view>
+	<view class="page__bd">
+		<view class="weui-panel weui-panel_access">
+			<view class="weui-panel__hd">{{ date }}</view>
+			<view class="weui-panel__bd" wx:for="{{stories}}" wx:key="key">
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="{{ item.images[0] }}"></image>
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="cust_title">{{ item.title }}</h4>
+						<view class="weui-media-box__desc">{{ item.hint }}</view>
+					</view>
+				</a>
+			</view>
+		</view>
+	</view>
+</view>

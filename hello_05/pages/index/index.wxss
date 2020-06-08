@@ -1,0 +1,12 @@
+/**index.wxss**/
+
+.cust_title {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--weui-FG-0);
+  width: auto;
+  white-space: wrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}  
