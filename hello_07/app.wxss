@@ -1,11 +1,13 @@
-/**index.wxss**/
+/**app.wxss**/
 
-.my-container {
+@import 'weui.wxss';
+
+.container {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin: 0 15px;
+  padding: 200rpx 0;
   box-sizing: border-box;
 } 

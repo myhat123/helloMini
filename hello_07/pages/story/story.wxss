@@ -9,3 +9,16 @@
   margin: 0 15px;
   box-sizing: border-box;
 } 
+
+.meta .avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.content-image {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
