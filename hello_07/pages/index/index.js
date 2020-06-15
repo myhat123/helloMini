@@ -15,6 +15,12 @@ Page({
   },
 
   onLoad: function (options) {
+  
+  },
+  onReady: function() {
+
+  },
+  onShow: function() {
     wx.request({
       url: 'https://news-at.zhihu.com/api/4/news/latest',
       success: (res) => {
@@ -25,13 +31,6 @@ Page({
         })
       }
     })
-
-  },
-  onReady: function() {
-
-  },
-  onShow: function() {
-  
   },
   onHide: function() {
 
